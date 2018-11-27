@@ -1,0 +1,1090 @@
+{
+  "paragraphs": [
+    {
+      "text": "%pyspark\n1 + 1",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 16:53:11.456",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "2\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258360141_881096472",
+      "id": "20181126-165240_999167079",
+      "dateCreated": "2018-11-26 16:52:40.142",
+      "dateStarted": "2018-11-26 16:53:11.630",
+      "dateFinished": "2018-11-26 16:54:38.106",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nimport os \ncwd \u003d os.getcwd()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 16:55:36.402",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258391466_752957390",
+      "id": "20181126-165311_1100583888",
+      "dateCreated": "2018-11-26 16:53:11.466",
+      "dateStarted": "2018-11-26 16:55:36.492",
+      "dateFinished": "2018-11-26 16:55:36.545",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nimport pickle\n\nwith open(\u0027/home/carlos/Dropbox/projeto_big_data_3/bolsonaro.pickle\u0027, \u0027rb\u0027) as f:\n    words_Bolsonaro \u003d pickle.load(f)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:00:26.208",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258510242_51602432",
+      "id": "20181126-165510_1800550187",
+      "dateCreated": "2018-11-26 16:55:10.242",
+      "dateStarted": "2018-11-26 17:00:26.305",
+      "dateFinished": "2018-11-26 17:00:26.928",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nwith open(\u0027/home/carlos/Dropbox/projeto_big_data_3/haddad.pickle\u0027, \u0027rb\u0027) as f:\n    words_Haddad \u003d pickle.load(f)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:00:39.123",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258585010_-870768274",
+      "id": "20181126-165625_1903626775",
+      "dateCreated": "2018-11-26 16:56:25.011",
+      "dateStarted": "2018-11-26 17:00:39.182",
+      "dateFinished": "2018-11-26 17:00:39.894",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nwords_Bolsonaro[\u0027corrupção\u0027]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:00:53.464",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "2735\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258666247_-1658762155",
+      "id": "20181126-165746_1521863584",
+      "dateCreated": "2018-11-26 16:57:46.247",
+      "dateStarted": "2018-11-26 17:00:53.531",
+      "dateFinished": "2018-11-26 17:00:53.566",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nwords_Haddad[\u0027corrupção\u0027]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:01:10.346",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "2206\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258696576_1875028083",
+      "id": "20181126-165816_1079128617",
+      "dateCreated": "2018-11-26 16:58:16.576",
+      "dateStarted": "2018-11-26 17:01:10.422",
+      "dateFinished": "2018-11-26 17:01:10.467",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_words_Bolsonaro \u003d len(words_Bolsonaro)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:01:52.347",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258716771_-906241220",
+      "id": "20181126-165836_109555170",
+      "dateCreated": "2018-11-26 16:58:36.772",
+      "dateStarted": "2018-11-26 17:01:52.496",
+      "dateFinished": "2018-11-26 17:01:52.535",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_words_Bolsonaro",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:01:59.714",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "339700\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258912347_-1758597667",
+      "id": "20181126-170152_345761253",
+      "dateCreated": "2018-11-26 17:01:52.347",
+      "dateStarted": "2018-11-26 17:01:59.844",
+      "dateFinished": "2018-11-26 17:01:59.882",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_words_Haddad \u003d len(words_Haddad)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:02:34.846",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258919714_279851814",
+      "id": "20181126-170159_1444391981",
+      "dateCreated": "2018-11-26 17:01:59.714",
+      "dateStarted": "2018-11-26 17:02:35.069",
+      "dateFinished": "2018-11-26 17:02:35.095",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_words_Haddad",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:02:52.622",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "272381\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258954846_-1407879971",
+      "id": "20181126-170234_183866736",
+      "dateCreated": "2018-11-26 17:02:34.846",
+      "dateStarted": "2018-11-26 17:02:52.844",
+      "dateFinished": "2018-11-26 17:02:52.898",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nwords_Haddad_intersects \u003d {k: words_Haddad[k] for k in words_Haddad if k in words_Bolsonaro}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:04:47.480",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543258966041_1260475252",
+      "id": "20181126-170246_121024109",
+      "dateCreated": "2018-11-26 17:02:46.042",
+      "dateStarted": "2018-11-26 17:04:47.636",
+      "dateFinished": "2018-11-26 17:04:48.466",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nwords_Bolsonaro_intersects \u003d {k: words_Bolsonaro[k] for k in words_Haddad if k in words_Bolsonaro}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:06:08.554",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259087480_-858710770",
+      "id": "20181126-170447_744607151",
+      "dateCreated": "2018-11-26 17:04:47.480",
+      "dateStarted": "2018-11-26 17:06:08.730",
+      "dateFinished": "2018-11-26 17:06:09.386",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_b \u003d sum(words_Bolsonaro_intersects.values())",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:07:17.865",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259168555_1967023035",
+      "id": "20181126-170608_1631237711",
+      "dateCreated": "2018-11-26 17:06:08.555",
+      "dateStarted": "2018-11-26 17:07:18.084",
+      "dateFinished": "2018-11-26 17:07:18.121",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_b",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:07:34.230",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "15467023\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259237866_2024975096",
+      "id": "20181126-170717_1389498951",
+      "dateCreated": "2018-11-26 17:07:17.866",
+      "dateStarted": "2018-11-26 17:07:34.420",
+      "dateFinished": "2018-11-26 17:07:34.460",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_h \u003d sum(words_Haddad_intersects.values())",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:08:12.406",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259254230_435077547",
+      "id": "20181126-170734_433590161",
+      "dateCreated": "2018-11-26 17:07:34.230",
+      "dateStarted": "2018-11-26 17:08:12.608",
+      "dateFinished": "2018-11-26 17:08:12.656",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ntotal_h",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:08:31.924",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259292406_-1663610000",
+      "id": "20181126-170812_1666632149",
+      "dateCreated": "2018-11-26 17:08:12.406",
+      "dateStarted": "2018-11-26 17:08:32.128",
+      "dateFinished": "2018-11-26 17:08:32.175",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\np_hat_h \u003d {k: words_Haddad_intersects[k]/total_h for k in words_Haddad_intersects if k in words_Bolsonaro_intersects}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:09:50.954",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259311925_-902592173",
+      "id": "20181126-170831_1220964239",
+      "dateCreated": "2018-11-26 17:08:31.925",
+      "dateStarted": "2018-11-26 17:09:51.140",
+      "dateFinished": "2018-11-26 17:09:51.633",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\np_hat_b \u003d {k: words_Bolsonaro_intersects[k]/total_b for k in words_Haddad_intersects if k in words_Bolsonaro_intersects}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:12:18.960",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259390954_142414670",
+      "id": "20181126-170950_1947947334",
+      "dateCreated": "2018-11-26 17:09:50.954",
+      "dateStarted": "2018-11-26 17:12:19.226",
+      "dateFinished": "2018-11-26 17:12:19.593",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\np_hat \u003d {k: ((words_Haddad_intersects[k]*p_hat_h[k] + words_Bolsonaro_intersects[k]*p_hat_b[k])/(words_Haddad_intersects[k] + words_Bolsonaro_intersects[k])) for k in words_Haddad_intersects if k in words_Bolsonaro_intersects}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:14:54.431",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259528184_-1300761272",
+      "id": "20181126-171208_1151721156",
+      "dateCreated": "2018-11-26 17:12:08.185",
+      "dateStarted": "2018-11-26 17:14:54.628",
+      "dateFinished": "2018-11-26 17:14:55.586",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nimport math\nz \u003d  {k: ((p_hat_h[k] - p_hat_b[k])/math.sqrt((p_hat[k] * (1 - p_hat[k]) * ((1/words_Haddad_intersects[k]) + (1/words_Bolsonaro_intersects[k]))))) for k in words_Haddad_intersects if k in words_Bolsonaro_intersects}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:18:04.393",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259694431_1596755912",
+      "id": "20181126-171454_623562926",
+      "dateCreated": "2018-11-26 17:14:54.431",
+      "dateStarted": "2018-11-26 17:18:04.565",
+      "dateFinished": "2018-11-26 17:18:05.474",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nfrom scipy import stats\np \u003d {k: 2 * (1 - stats.norm.cdf(z[k])) for k in words_Haddad_intersects if k in words_Bolsonaro_intersects}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:19:28.767",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259884393_-693889468",
+      "id": "20181126-171804_1855690127",
+      "dateCreated": "2018-11-26 17:18:04.393",
+      "dateStarted": "2018-11-26 17:19:28.953",
+      "dateFinished": "2018-11-26 17:20:17.483",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_not_rejected \u003d {k: p[k] for k in p if p[k] \u003e .05}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:20:30.012",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543259952691_1501039381",
+      "id": "20181126-171912_788706394",
+      "dateCreated": "2018-11-26 17:19:12.691",
+      "dateStarted": "2018-11-26 17:20:30.181",
+      "dateFinished": "2018-11-26 17:20:30.494",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_not_rejected_list \u003d [(k, h0_not_rejected[k]) for k in sorted(h0_not_rejected, key\u003dh0_not_rejected.get)]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:21:08.103",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260030012_2077317361",
+      "id": "20181126-172030_1461247630",
+      "dateCreated": "2018-11-26 17:20:30.012",
+      "dateStarted": "2018-11-26 17:21:08.295",
+      "dateFinished": "2018-11-26 17:21:09.579",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected \u003d {k: p[k] for k in p if p_hat_h[k] \u003e p_hat_b[k]}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:22:13.977",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260090749_1362949900",
+      "id": "20181126-172130_1142778393",
+      "dateCreated": "2018-11-26 17:21:30.749",
+      "dateStarted": "2018-11-26 17:22:14.232",
+      "dateFinished": "2018-11-26 17:22:14.696",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected_list \u003d [(k, h0_rejected[k]) for k in sorted(h0_rejected, key\u003dh0_rejected.get)] ",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:22:33.005",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260133977_1617067948",
+      "id": "20181126-172213_683008825",
+      "dateCreated": "2018-11-26 17:22:13.978",
+      "dateStarted": "2018-11-26 17:22:33.204",
+      "dateFinished": "2018-11-26 17:22:34.362",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected_2 \u003d {k: p[k] for k in p if p_hat_b[k] \u003e p_hat_h[k]}",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:23:59.458",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260169801_754814398",
+      "id": "20181126-172249_2063153211",
+      "dateCreated": "2018-11-26 17:22:49.801",
+      "dateStarted": "2018-11-26 17:23:59.613",
+      "dateFinished": "2018-11-26 17:23:59.920",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected_2_list \u003d [(k, h0_rejected_2[k]) for k in sorted(h0_rejected_2, key\u003dh0_rejected_2.get)] ",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:24:14.964",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260239458_971420285",
+      "id": "20181126-172359_1624946335",
+      "dateCreated": "2018-11-26 17:23:59.458",
+      "dateStarted": "2018-11-26 17:24:15.175",
+      "dateFinished": "2018-11-26 17:24:15.624",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_not_rejected_list[:50]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:26:05.044",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[(\u0027para\u0027, 0.10525563137133287), (\u0027do\u0027, 0.20616455051449867), (\u0027São\u0027, 0.4469757162362469), (\u0027é\u0027, 0.4722233229551529), (\u0027Haddad\u0027, 0.4794861584868477), (\u0027UOL\u0027, 0.4850686795253223), (\u0027Mundo\u0027, 0.48593121187419985), (\u0027prende\u0027, 0.5212426663913801), (\u0027da\u0027, 0.6101819123759129), (\u0027canais\u0027, 0.6131527914418229), (\u0027preso\u0027, 0.6259596271697723), (\u0027matéria\u0027, 0.6671151706726237), (\u0027Mundial\u0027, 0.6803097705920009), (\u0027diz\u0027, 0.6820049675859776), (\u0027Brasil\u0027, 0.7022255690214081), (\u0027R$\u0027, 0.7086441464101585), (\u0027educação\u0027, 0.7492063028727509), (\u0027curso\u0027, 0.7504223969944959), (\u0027Lula\u0027, 0.7554632341371936), (\u0027das\u0027, 0.7603337501376026), (\u0027\u003d\u003e\u0027, 0.7610016353695086), (\u0027Dilma\u0027, 0.7648178569919339), (\u0027apreende\u0027, 0.7727362474100996), (\u0027quer\u0027, 0.7762108694772398), (\u0027Aqui!\\nInglêspanhol!\u0027, 0.7801009488303634), (\u0027Maria\u0027, 0.7816139930916988), (\u0027Lucas\u0027, 0.7836834548866765), (\u0027Clique\u0027, 0.7853814767714791), (\u0027PT\u0027, 0.7939544363112208), (\u0027Brasileira\u0027, 0.8012825308320697), (\u0027Civil\u0027, 0.8053811460814566), (\u0027Paulo\u0027, 0.8103214368822835), (\u0027of\u0027, 0.8108008094326438), (\u0027Vila\u0027, 0.8141481952716882), (\u0027Fernando\u0027, 0.8167749212995346), (\u0027vai\u0027, 0.8198823803430848), (\u0027matar\u0027, 0.821719286647085), (\u0027escolas\u0027, 0.825969405767903), (\u0027Educação\u0027, 0.8273870369941148), (\u0027concurso\u0027, 0.8283730083547001), (\u0027pede\u0027, 0.8325545625549333), (\u0027escola\u0027, 0.8346916358549799), (\u0027eleito\u0027, 0.8393823064251669), (\u0027suspeito\u0027, 0.842138113345154), (\u0027dos\u0027, 0.8430675083224397), (\u0027aprova\u0027, 0.8441278367398803), (\u0027abre\u0027, 0.8452996026524153), (\u0027José\u0027, 0.8481435797679446), (\u0027Rio\u0027, 0.8506235951970638), (\u0027prefeito\u0027, 0.8508750632493558)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260276218_-1954716045",
+      "id": "20181126-172436_1399448266",
+      "dateCreated": "2018-11-26 17:24:36.218",
+      "dateStarted": "2018-11-26 17:26:05.277",
+      "dateFinished": "2018-11-26 17:26:05.322",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected_list[:40]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:27:41.463",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[(\u0027de\u0027, 3.5547120802448262e-12), (\u0027-\u0027, 0.0003145659664918199), (\u0027\u0027, 0.0016160030041600937), (\u0027para\u0027, 0.10525563137133287), (\u0027do\u0027, 0.20616455051449867), (\u0027São\u0027, 0.4469757162362469), (\u0027é\u0027, 0.4722233229551529), (\u0027Haddad\u0027, 0.4794861584868477), (\u0027UOL\u0027, 0.4850686795253223), (\u0027Mundo\u0027, 0.48593121187419985), (\u0027prende\u0027, 0.5212426663913801), (\u0027da\u0027, 0.6101819123759129), (\u0027canais\u0027, 0.6131527914418229), (\u0027preso\u0027, 0.6259596271697723), (\u0027matéria\u0027, 0.6671151706726237), (\u0027Mundial\u0027, 0.6803097705920009), (\u0027diz\u0027, 0.6820049675859776), (\u0027Brasil\u0027, 0.7022255690214081), (\u0027R$\u0027, 0.7086441464101585), (\u0027educação\u0027, 0.7492063028727509), (\u0027curso\u0027, 0.7504223969944959), (\u0027Lula\u0027, 0.7554632341371936), (\u0027das\u0027, 0.7603337501376026), (\u0027\u003d\u003e\u0027, 0.7610016353695086), (\u0027Dilma\u0027, 0.7648178569919339), (\u0027apreende\u0027, 0.7727362474100996), (\u0027quer\u0027, 0.7762108694772398), (\u0027Aqui!\\nInglêspanhol!\u0027, 0.7801009488303634), (\u0027Maria\u0027, 0.7816139930916988), (\u0027Lucas\u0027, 0.7836834548866765), (\u0027Clique\u0027, 0.7853814767714791), (\u0027PT\u0027, 0.7939544363112208), (\u0027Brasileira\u0027, 0.8012825308320697), (\u0027Civil\u0027, 0.8053811460814566), (\u0027Paulo\u0027, 0.8103214368822835), (\u0027of\u0027, 0.8108008094326438), (\u0027Vila\u0027, 0.8141481952716882), (\u0027Fernando\u0027, 0.8167749212995346), (\u0027vai\u0027, 0.8198823803430848), (\u0027matar\u0027, 0.821719286647085)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260344233_-204988901",
+      "id": "20181126-172544_56692622",
+      "dateCreated": "2018-11-26 17:25:44.233",
+      "dateStarted": "2018-11-26 17:27:41.678",
+      "dateFinished": "2018-11-26 17:27:41.711",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nh0_rejected_2_list[:40]",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:27:34.726",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[(\u00271,2\u0027, 1.0000003628106602), (\u0027cordas\u0027, 1.0000004322078082), (\u0027fã,\u0027, 1.0000004322078082), (\u0027Recurso\u0027, 1.0000004322078082), (\u00272010\\nmarço\u0027, 1.0000004322078082), (\u0027ESTUPRO\u0027, 1.0000004322078082), (\u0027bilhão,\u0027, 1.0000004322078082), (\u0027julgamento.\u0027, 1.0000004322078082), (\u00272010\\njaneiro\u0027, 1.0000004322078082), (\u0027ESPN\u0027, 1.0000004322078082), (\u0027comarca\u0027, 1.0000004322078082), (\u0027Getulio\u0027, 1.0000004322078082), (\u002713/09/2018\u0027, 1.0000004322078082), (\u0027“Bolsonaro\u0027, 1.0000004322078082), (\u0027Amsterdã,\u0027, 1.0000004322078082), (\u0027Itaipu\u0027, 1.0000004322078082), (\u0027help\\nRecuperar\u0027, 1.0000004322078082), (\u00272010\\nfevereiro\u0027, 1.0000004322078082), (\u0027homofóbica\u0027, 1.0000004322078082), (\u0027ex-capitão\u0027, 1.0000004322078082), (\"\u0027fake\", 1.0000004322078082), (\u0027Também:\u0027, 1.0000004322078082), (\u0027violências\u0027, 1.0000004322078082), (\u0027opinou\u0027, 1.0000004322078082), (\u0027gastam\u0027, 1.000000864416371), (\u0027bronca\u0027, 1.000000864416371), (\u0027maturidade\u0027, 1.000000864416371), (\u0027desaparecidas\u0027, 1.000000864416371), (\u0027poucos,\u0027, 1.000000864416371), (\u0027PSDB.\u0027, 1.000000864416371), (\u0027Templates\u0027, 1.0000012966256882), (\u0027Sedam\u0027, 1.0000012966256882), (\u0027(MG),\u0027, 1.0000012966256882), (\u0027(105)\\n►\u0027, 1.0000012966256882), (\u0027\"Só\u0027, 1.0000012966256882), (\u0027Comunicar\u0027, 1.0000012966256882), (\u0027inicialmente\u0027, 1.0000017288357597), (\u0027rápida\u0027, 1.0000025932581662), (\u00275,\u0027, 1.0000030254705012), (\u0027pedra\u0027, 1.0000038898974344)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260396877_-1975590506",
+      "id": "20181126-172636_522246469",
+      "dateCreated": "2018-11-26 17:26:36.877",
+      "dateStarted": "2018-11-26 17:27:34.951",
+      "dateFinished": "2018-11-26 17:27:35.010",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-26 17:27:07.292",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1543260427291_-1216655488",
+      "id": "20181126-172707_2063389631",
+      "dateCreated": "2018-11-26 17:27:07.291",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "final",
+  "id": "2DX36RWM5",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
